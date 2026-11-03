@@ -1,0 +1,52 @@
+data: {"success":true,"indicatorType":"all","tokenAddress":"HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3","timeframe":"1h","chartData":{"macd":{"macdLine":[0.002,0.001,-0.001,-0.002,-0.001,0.001,0.003],"signalLine":[0.001,0.001,0,-0.001,-0.001,0,0.001],"histogram":[0.001,0,-0.001,-0.001,0,0.001,0.002],"crossovers":[{"type":"bullish","position":5},{"type":"bearish","position":2}],"settings":{"fastLength":12,"slowLength":26,"signalSmoothing":9}},"rsi":{"values":[45,48,52,58,62,65,60,55,50],"overbought":70,"oversold":30,"currentValue":50,"trend":"neutral","divergences":[{"type":"bullish","position":2},{"type":"bearish","position":6}],"settings":{"length":14}},"cuphandle":{"pattern":{"detected":false,"confidence":92.21412568650913,"cupStart":10,"cupEnd":30,"handleStart":30,"handleEnd":40,"targetPrice":0.0752361445806692},"priceAction":{"volume":"increasing","consolidation":true}}}}
+
+# PYTH Technical Analysis — 1H Timeframe
+
+## 1. Overview & Price Context
+
+PYTH is trading at **$0.06198**, down **-5.15%** over 24 hours, with thin spot volume (~$170K) relative to its ~$488M market cap. This volume/market-cap ratio is unusually low and suggests the current move is being driven by low-liquidity conditions rather than broad conviction. Low liquidity amplifies both wicks and false signals, so indicator readings should be weighted accordingly.
+
+## 2. MACD Analysis (Momentum)
+
+The MACD sequence shows a full momentum cycle playing out on the 1H:
+
+- A **bearish crossover at position 2** marked the start of the downswing.
+- The histogram bottomed at **-0.001** (positions 3–4), then compressed to zero — a classic momentum exhaustion signature.
+- A **bullish crossover at position 5** has since pushed the histogram positive (**+0.001 → +0.002**), with the MACD line rising from -0.001 to **+0.003** while the signal line trails at **+0.001**.
+
+**Interpretation:** Short-term momentum has flipped bullish on the 1H. The widening positive histogram suggests the crossover is gaining traction rather than fading. However, the MACD line is still near the zero line, meaning this is an early-stage recovery, not yet a confirmed trend reversal.
+
+## 3. RSI Analysis (Momentum Quality)
+
+- Current RSI: **50** — dead neutral.
+- The RSI path (45 → 48 → 52 → 58 → 62 → **65** → 60 → 55 → 50) shows a rally that peaked at 65 (below overbought) and has since cooled back to the midline.
+- **Divergences:** A bullish divergence at position 2 preceded the bounce; a **bearish divergence at position 6** formed near the RSI peak of 65.
+
+**Interpretation:** The bearish divergence at position 6 is a caution flag — price strength into the recent high was not confirmed by RSI. The pullback to 50 means RSI has room to move either direction; there is no overbought/oversold pressure. Net read: neutral momentum with a slight bearish undertone from the divergence.
+
+## 4. Cup and Handle Pattern
+
+- **Pattern detected: No** (92.21% confidence).
+- The framework defines a cup range of 10–30 and handle range of 30–40, with a theoretical target of **$0.0752** and increasing volume during consolidation.
+
+**Interpretation:** The high-confidence "no detection" is the key takeaway — the structure is **not** a valid cup-and-handle. The target of $0.0752 should be treated as a hypothetical reference only, not an actionable level. The "consolidation phase: yes" flag is consistent with the flat RSI and compressed MACD, but consolidation alone is not a tradeable pattern.
+
+## 5. Key Levels to Watch
+
+- **Upside:** MACD zero-line reclaim (MACD line crossing decisively above 0) as confirmation of momentum shift; RSI holding above 50. The $0.0752 pattern target is only relevant if a genuine breakout structure forms.
+- **Downside:** A MACD histogram rollover back to negative (currently +0.002) would invalidate the bullish crossover. RSI losing 50 and heading toward 45 would confirm the bearish divergence is playing out.
+- **Context:** The -5.15% daily move against neutral 1H oscillators suggests the hourly data may be lagging the daily downtrend.
+
+## 6. Short-Term Outlook (24–48h)
+
+The 1H picture is **mixed-to-neutral with a mild bullish bias from MACD, offset by the RSI bearish divergence**. The most probable scenario is continued range-bound consolidation near $0.062, with momentum attempting to build. A clean MACD zero-line cross plus RSI reclaim above 55 would tilt the bias bullish; conversely, histogram contraction and an RSI break below 50 would favor a retest of recent lows. Given the very low volume, expect choppy, unreliable price action — avoid over-reading single-bar signals.
+
+## 7. Potential Trade Setups
+
+- **Momentum long (aggressive):** Entry on MACD zero-line reclaim with histogram expanding, stop below the recent swing low, targeting the upper consolidation range. Invalidated if the histogram flips negative.
+- **Divergence short (counter-trend):** The bearish RSI divergence at position 6 argues for caution on longs; a short setup would require confirmation (RSI < 50 + MACD histogram rollover), not the divergence alone.
+- **No-trade zone:** With RSI at 50 and the pattern invalidated, there is no high-conviction setup right now. Waiting for a decisive MACD/RSI alignment is the lower-risk approach.
+
+## 8. Confidence Score
+
+**Confidence: 5/10** — The 1H indicators are internally consistent (MACD bullish crossover + neutral RSI), but the conflicting bearish divergence, the sub-1% volume-to-market-cap ratio, and the absence of a valid chart pattern limit conviction. Signals are early-stage and easily reversed in thin liquidity.

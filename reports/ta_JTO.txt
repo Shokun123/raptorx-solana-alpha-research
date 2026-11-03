@@ -1,0 +1,66 @@
+data: {"success":true,"indicatorType":"all","tokenAddress":"jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL","timeframe":"1h","chartData":{"macd":{"macdLine":[0.002,0.001,-0.001,-0.002,-0.001,0.001,0.003],"signalLine":[0.001,0.001,0,-0.001,-0.001,0,0.001],"histogram":[0.001,0,-0.001,-0.001,0,0.001,0.002],"crossovers":[{"type":"bullish","position":5},{"type":"bearish","position":2}],"settings":{"fastLength":12,"slowLength":26,"signalSmoothing":9}},"rsi":{"values":[45,48,52,58,62,65,60,55,50],"overbought":70,"oversold":30,"currentValue":50,"trend":"neutral","divergences":[{"type":"bullish","position":2},{"type":"bearish","position":6}],"settings":{"length":14}},"cuphandle":{"pattern":{"detected":true,"confidence":49.02345165256436,"cupStart":10,"cupEnd":30,"handleStart":30,"handleEnd":40,"targetPrice":0.4286440523481456},"priceAction":{"volume":"increasing","consolidation":true}}}}
+
+# JTO Technical Analysis — 1H Timeframe
+
+## 1. Overview & Context
+
+JTO is trading at **$0.3521**, down **5.34% over 24h**, on notably thin 24h volume (~$48K) against a ~$187M market cap. This volume-to-market-cap ratio is extremely low, which matters for interpreting every signal below: **thin liquidity amplifies noise and produces unreliable indicator readings**. Treat all signals with extra caution.
+
+## 2. MACD Analysis
+
+The MACD histogram sequence `[0.001, 0, -0.001, -0.001, 0, 0.001, 0.002]` shows a **bearish phase in the middle of the window followed by a fresh bullish crossover at position 5** (the most recent bars). The MACD line has crossed back above the signal line, and the histogram is expanding positive (0.001 → 0.002), which is the textbook signature of **early momentum recovery**.
+
+However, the magnitude is very small — the MACD line sits at just 0.003, barely above zero. This is a **weak, low-conviction bullish cross**, not a momentum breakout. It suggests the selling pressure from the earlier bearish crossover (position 2) has exhausted, but does not yet confirm a strong uptrend.
+
+## 3. RSI Analysis
+
+RSI is at **50 — dead neutral**. The sequence `[45, 48, 52, 58, 62, 65, 60, 55, 50]` tells a clear story: RSI rallied from 45 to a local peak of 65, then **rolled over for four consecutive bars back to 50**. This is momentum fading from a failed push toward overbought territory (65 is below the 70 threshold, so no true overbought condition was reached).
+
+- The **bearish divergence at position 6** (price making a higher high while RSI peaked and turned down) is the more actionable signal — it aligns with the recent 5.34% drop.
+- The **bullish divergence at position 2** is stale and less relevant to current price action.
+
+Net read: RSI is at a **decision point**. A hold above 50 keeps the recovery thesis alive; a break below 45–48 would confirm renewed downside momentum.
+
+## 4. Cup and Handle Pattern
+
+A cup-and-handle is flagged with **confidence of only 49.02%** — essentially a coin flip. The cup (10–30) and handle (30–40) ranges are described in abstract units rather than price, which limits actionable precision. The **target price of $0.4286** implies roughly **+21.7% upside** from $0.3521.
+
+Key caveats:
+- **Confidence below 50%** means this pattern is not confirmed. Many low-confidence pattern detections fail.
+- The **"increasing volume"** reading is suspect given the extremely low absolute volume — small trades can skew this.
+- The "consolidation phase: yes" supports the idea of a coiling handle, but without a confirmed breakout above the handle high, the pattern is incomplete.
+
+**The pattern is only valid on a volume-backed breakout above the handle resistance.** Until then, it is a watchlist item, not a trade trigger.
+
+## 5. Key Levels to Watch
+
+- **Resistance:** ~$0.36–0.37 (recent local highs implied by the RSI peak and bearish divergence), then the handle high / breakout zone.
+- **Support:** ~$0.34–0.345 (where RSI bottomed near 45 earlier in the sequence); a break here invalidates the near-term recovery structure.
+- **Pattern invalidation:** A decisive close below the cup's lower structure would void the cup-and-handle thesis.
+- **Upside target:** $0.4286 (pattern target) — only relevant on confirmed breakout.
+
+## 6. Short-Term Outlook (24–48h)
+
+The picture is **cautiously neutral-to-mildly constructive**:
+
+- **Bullish factors:** Fresh MACD bullish cross with expanding histogram; RSI stabilizing at 50 rather than collapsing; cup-and-handle consolidation still intact.
+- **Bearish factors:** Recent 5.34% decline; bearish RSI divergence still fresh; weak MACD magnitude; extremely thin volume undermining all signals.
+
+Most likely scenario: **range-bound consolidation between ~$0.34 and ~$0.37**, with the market waiting for a volume catalyst. A break above $0.37 on rising volume would activate the cup-and-handle target; a break below $0.34 would flip the bias bearish and target lower support.
+
+## 7. Potential Trade Setups
+
+- **Breakout long (preferred):** Wait for a confirmed close above the handle resistance (~$0.37) **with a clear volume expansion** — the thin volume makes this filter essential. Stop below the handle low; target $0.4286.
+- **Range play:** Buy near $0.34 support, sell near $0.36–0.37 resistance, with tight stops. Suitable only for active traders given the low liquidity.
+- **Bearish trigger:** A close below $0.34 with rising volume opens a short toward lower support; the failed RSI push and bearish divergence support this scenario.
+- **Avoid:** Chasing the current price mid-range — risk/reward is poor at the midpoint of the range with unconfirmed signals.
+
+## 8. Confidence Score
+
+**Confidence: 4/10**
+
+Rationale: The indicators give a coherent but **low-conviction, mixed picture** — a weak MACD cross and neutral RSI conflict with a fresh bearish divergence and a sub-50% confidence pattern. The **extremely thin volume** is the single biggest reason for the low score, as it makes every technical signal less reliable. This analysis should be treated as a framework for monitoring, not a high-conviction directional call.
+
+---
+
+*Disclaimer: This is technical analysis based on the provided indicator data, not financial advice. Cryptocurrency markets are highly volatile, and low-liquidity tokens carry elevated risk. Always use stop losses and position sizing appropriate to your risk tolerance.*
