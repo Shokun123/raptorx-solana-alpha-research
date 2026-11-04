@@ -1,0 +1,60 @@
+data: {"success":true,"indicatorType":"all","tokenAddress":"DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7","timeframe":"1h","chartData":{"macd":{"macdLine":[0.002,0.001,-0.001,-0.002,-0.001,0.001,0.003],"signalLine":[0.001,0.001,0,-0.001,-0.001,0,0.001],"histogram":[0.001,0,-0.001,-0.001,0,0.001,0.002],"crossovers":[{"type":"bullish","position":5},{"type":"bearish","position":2}],"settings":{"fastLength":12,"slowLength":26,"signalSmoothing":9}},"rsi":{"values":[45,48,52,58,62,65,60,55,50],"overbought":70,"oversold":30,"currentValue":50,"trend":"neutral","divergences":[{"type":"bullish","position":2},{"type":"bearish","position":6}],"settings":{"length":14}},"cuphandle":{"pattern":{"detected":true,"confidence":79.43500301779542,"cupStart":10,"cupEnd":30,"handleStart":30,"handleEnd":40,"targetPrice":0.013872987998966625},"priceAction":{"volume":"increasing","consolidation":true}}}}
+
+# DRIFT Technical Analysis (1H Timeframe)
+
+## Overview
+
+DRIFT is trading at $0.01280, up 3.50% over 24 hours. However, the most notable context is the extremely thin 24h volume of ~$1,440 against a ~$9.3M market cap — a volume-to-market-cap ratio of roughly 0.015%. This is a critical caveat: technical signals on such low liquidity are prone to noise, slippage, and false breakouts. All readings below should be interpreted with that in mind.
+
+---
+
+## MACD Analysis
+
+The MACD line series `[0.002, 0.001, -0.001, -0.002, -0.001, 0.001, 0.003]` tells a clear story of a momentum trough and recovery. The MACD dipped into negative territory (positions 2–4), bottomed at -0.002, then recovered through zero and is now at +0.003 — the highest reading in the series. The signal line has followed with a lag, and the histogram `[0.001, 0, -0.001, -0.001, 0, 0.001, 0.002]` confirms expanding bullish momentum over the last two bars.
+
+Critically, a **bullish crossover occurred at position 5** (MACD crossed above signal), and the widening positive histogram since then suggests the crossover is being validated rather than immediately failing. The earlier bearish crossover at position 2 marked the start of the dip that has now been reversed. Momentum is currently on the bullish side of neutral, though the MACD remains close to the zero line — this is an early-stage recovery, not a mature trend.
+
+---
+
+## RSI Analysis
+
+RSI at **50** is textbook neutral, but the path matters more than the level. The series `[45, 48, 52, 58, 62, 65, 60, 55, 50]` shows a rally into 65 (approaching but not reaching overbought at 70), followed by a steady pullback to 50. This is a controlled cooldown — RSI reset without price collapsing, which often precedes continuation if momentum re-engages.
+
+Two divergences are flagged: a **bullish divergence at position 2** (RSI at 48 while price presumably made a lower low) and a **bearish divergence at position 6** (RSI at 65 while price likely made a higher high). These are contradictory signals from different points in the series. The bearish divergence at position 6 has already partially played out via the RSI pullback to 50. The current neutral reading means RSI is not blocking either direction — it has room to move up toward 60–65 or down toward 40 without triggering extremes.
+
+---
+
+## Cup and Handle Pattern
+
+A cup and handle is detected with **79.44% confidence**, with the cup spanning 10–30 and the handle 30–40 on the pattern's internal scale. The pattern is described as being in a consolidation phase with **increasing volume** — the volume trend is the most encouraging element, as handle formations ideally show declining volume, and rising volume into a breakout attempt is constructive.
+
+The pattern's measured target is **$0.01387**, approximately **8.4% above the current price of $0.01280**. This is a modest, realistic target rather than an aggressive projection. The key validation is a breakout above the handle resistance with volume confirmation; given the extremely low absolute volume, even a small inflow could produce a sharp move, but equally, the breakout could fail without follow-through.
+
+---
+
+## Key Levels and Signals to Watch
+
+- **Upside trigger:** A confirmed break above the handle high (pattern range ~40) toward the $0.01387 target. Watch for the MACD histogram continuing to expand and RSI pushing back above 55–60.
+- **Momentum confirmation:** MACD holding above the signal line and the zero line; a cross back below signal would invalidate the current bullish setup.
+- **Downside risk:** RSI falling below ~45 and MACD histogram turning negative would suggest the recovery was a false start. The cup's lower range (10) represents the deeper structural support zone.
+- **Volume:** Any breakout must be accompanied by a visible uptick in volume — with 24h volume this thin, a breakout on flat volume is a red flag.
+
+---
+
+## Short-Term Outlook (24–48 Hours)
+
+The technical picture is **mildly bullish but low-conviction**. MACD has freshly crossed bullish with an expanding histogram, RSI has reset to neutral from a modest overbought approach (leaving room to run), and a cup-and-handle with a near-term target is in its consolidation phase. The most likely scenario is continued consolidation within the handle, with an upward bias, as long as MACD stays positive and RSI holds near or above 50. A failure of the MACD crossover or an RSI break below 45 would shift the bias to neutral-to-bearish. The extremely low liquidity is the dominant risk factor and could produce outsized moves in either direction on minimal flow.
+
+---
+
+## Potential Trade Setups
+
+- **Breakout setup:** Enter on a confirmed close above handle resistance with volume expansion; target ~$0.01387; stop below the handle low or on MACD crossing back below signal.
+- **Pullback setup:** If price retests handle support with RSI holding above 45 and MACD histogram staying positive, a long entry with a tighter stop could offer better risk/reward than chasing.
+- **Invalidation:** A MACD bearish crossover or RSI below 45 argues for standing aside; given thin volume, position sizing should be conservative regardless of setup.
+
+---
+
+## Confidence Score: **5/10**
+
+The indicator alignment (bullish MACD crossover, neutral-reset RSI, 79% cup-and-handle confidence, rising volume trend) is internally consistent and mildly constructive. The score is held at neutral because the extremely low 24h volume undermines the reliability of every signal — patterns and crossovers on illiquid pairs frequently produce false signals, and the contradictory divergence readings add further uncertainty. This analysis reflects what the indicators show; it is not a price prediction.
