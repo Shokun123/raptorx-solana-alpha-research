@@ -1,6 +1,7 @@
 # RaptorX Research Challenge: Institutional Solana Alpha Discovery (`$JUP`, `$JTO`, `$PYTH`, `$RAY`, `$ORCA`, `$DRIFT`)
 
 > **Official Submission for the Superteam Earn Bounty**: *RaptorX Research Challenge: Ask Better Questions, Find Better Alpha*  
+> **Live Interactive On-Chain Alpha Terminal & Attribution Dashboard**: **[https://shokun123.github.io/web-demos/raptorx-analytics/](https://shokun123.github.io/web-demos/raptorx-analytics/)**  
 > **Platform**: [https://www.raptorx.trade](https://www.raptorx.trade/solana)  
 > **Authenticated RaptorX Researcher Account**: `Giraffe980` (`userId: cmw05wtkh0000le08247plw12`)  
 > **Connected Solana Wallet**: `9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin`  
